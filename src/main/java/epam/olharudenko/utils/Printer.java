@@ -3,15 +3,15 @@ package epam.olharudenko.utils;
 import java.util.Map;
 
 import static epam.olharudenko.utils.Constants.NEW_LINE;
-import static epam.olharudenko.utils.Constants.TWENTY;
 import static epam.olharudenko.utils.Constants.WHITESPACE;
 
 /**
  * @author Olha Rudenko
- * @verson 1.0, 21.07.2022
+ * @verson 1.1, 01.08.2022
  * Printer
  */
 public class Printer {
+    private static final Integer WHITESPACE_VALUE = 20;
 
     /**
      * Method print result from map to console
@@ -35,6 +35,6 @@ public class Printer {
     }
 
     private static String generateSpace(int size) {
-        return WHITESPACE.repeat(TWENTY - size);
+        return WHITESPACE.repeat(WHITESPACE_VALUE - size);
     }
 }
