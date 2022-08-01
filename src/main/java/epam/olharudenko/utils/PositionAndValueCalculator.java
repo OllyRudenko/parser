@@ -3,7 +3,6 @@ package epam.olharudenko.utils;
 import java.util.Arrays;
 
 import static epam.olharudenko.utils.Constants.COMA;
-import static epam.olharudenko.utils.Constants.WRONG_COMMAND;
 
 /**
  * @author Olha Rudenko
@@ -11,6 +10,7 @@ import static epam.olharudenko.utils.Constants.WRONG_COMMAND;
  * PositionAndValueCalculator
  */
 public class PositionAndValueCalculator {
+    private final static String WRONG_COMMAND = ">> ATTENTION! Wrong command";
 
     /**
      * method found position by 'name' in text
